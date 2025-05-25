@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="312dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/containercastvote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#161616"
+        android:backgroundTint="#8F9B97"
+        android:visibility="visible"
+        >
+
+        <EditText
+            android:id="@+id/Vcv_eid"
+
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="5dp"
+
+            android:background="@drawable/input_bg"
+
+
+            android:hint="ELECTION ID"
+            android:textFontWeight="600"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Vcv_search"
+            android:layout_width="149dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/custom_button"
+
+            android:text="VOTE"
+
+            android:textColor="@color/white"
+            android:textSize="18dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Vcv_eid" />
+
+        <TextView
+            android:id="@+id/Vcv_tv"
+            android:layout_width="405dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:text="ACTIVE  ELECTIONS"
+            android:textAlignment="center"
+            android:textColor="#212121"
+            android:textSize="35dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Ename"
+            android:layout_width="108dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="348dp"
+            android:fontFamily="@font/alegreya_sans_sc_medium"
+            android:gravity="center"
+            android:text="E - NAME"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.788"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/EIDdii"
+            android:layout_width="108dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="348dp"
+            android:fontFamily="@font/alegreya_sans_sc_medium"
+            android:gravity="center"
+            android:text="E - ID"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.191"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

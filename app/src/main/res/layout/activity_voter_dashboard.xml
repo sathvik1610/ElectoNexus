@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+
+    android:background="#161616"
+    android:backgroundTint="#8F9B97"
+    android:visibility="visible"
+    >
+
+    <Button
+        android:id="@+id/Vsignoutbutton"
+        android:layout_width="275dp"
+        android:layout_height="63dp"
+        android:background="@drawable/custom_button"
+        android:text="sign out"
+
+
+        android:textColor="@color/white"
+
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.868"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/voterdbname"
+        android:layout_width="403dp"
+        android:layout_height="38dp"
+        android:text="Rahul"
+        android:textAlignment="center"
+        android:fontFamily="@font/gowun_dodum"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305" />
+
+    <Button
+        android:id="@+id/Velectionregistor"
+        android:layout_width="145dp"
+        android:layout_height="63dp"
+        android:background="@drawable/custom_button"
+        android:text="Register for Elections"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Vcastvotebutton"
+        android:layout_width="145dp"
+        android:layout_height="63dp"
+        android:background="@drawable/custom_button"
+        android:text="Cast your\nVote"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Vcandidateapply"
+        android:layout_width="145dp"
+        android:layout_height="63dp"
+        android:background="@drawable/custom_button"
+        android:text="Apply for Candidates"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <Button
+        android:id="@+id/Vresultsbutton"
+        android:layout_width="145dp"
+        android:layout_height="63dp"
+        android:background="@drawable/custom_button"
+        android:text="Results"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <TextView
+        android:id="@+id/voterdbun"
+        android:layout_width="414dp"
+        android:layout_height="46dp"
+        android:fontFamily="@font/gowun_dodum"
+        android:text="Voter"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="157dp"
+        android:layout_height="88dp"
+        android:background="@drawable/half_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104"
+        app:srcCompat="@drawable/half_logo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

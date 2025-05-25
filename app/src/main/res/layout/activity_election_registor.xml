@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="312dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/containerelectionregistor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#161616"
+    android:backgroundTint="#8F9B97"
+    android:visibility="visible"
+    >
+
+    <EditText
+        android:id="@+id/VeidText"
+
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="5dp"
+
+        android:background="@drawable/input_bg"
+
+
+        android:hint="ELECTION ID"
+        android:textFontWeight="600"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Veidbutton"
+        android:layout_width="169dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_button"
+
+        android:text="Send request"
+
+        android:textColor="@color/white"
+        android:textSize="18dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VeidText" />
+
+    <TextView
+        android:id="@+id/ertextview"
+        android:layout_width="405dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="264dp"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:text="REQUEST STATUS"
+        android:textAlignment="center"
+        android:textColor="#212121"
+        android:textSize="35dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/RS"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="336dp"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
+        android:gravity="center"
+        android:text="E - ID"
+        android:textColor="@color/black"
+        android:textFontWeight="700"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Ename"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="336dp"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
+        android:gravity="center"
+        android:text="E - NAME"
+        android:textColor="@color/black"
+        android:textFontWeight="700"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Estatus"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="336dp"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
+        android:gravity="center"
+        android:text="REQ - STATUS"
+        android:textColor="@color/black"
+        android:textFontWeight="700"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

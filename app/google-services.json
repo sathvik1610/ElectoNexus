@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1040916069187",
+    "project_id": "electonexusmain",
+    "storage_bucket": "electonexusmain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040916069187:android:12177a24227d6c578dcdf6",
+        "android_client_info": {
+          "package_name": "com.example.electonexus_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdGtqZ4HlRTOKI-fMOm5CWtBTQ_SkwlZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

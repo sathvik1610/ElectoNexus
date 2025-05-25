@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="213dp"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/containerresult"
+    android:layout_width="match_parent"
+    android:background="#8F9B97"
+    android:layout_height="wrap_content"
+    tools:context=".result">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="252dp"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
+        android:gravity="center"
+        android:text="NO OF VOTES"
+        android:textColor="@color/black"
+        android:textFontWeight="700"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="177dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/half_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textViewpv"
+        android:layout_width="355dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
+        android:text="   FINAL RESULTS  : "
+        android:textColor="#181818"
+        android:textFontWeight="800"
+        android:textSize="23dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Fname"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="252dp"
+        android:text="NAME"
+        android:fontFamily="@font/alegreya_sans_sc_medium"
+        android:textFontWeight="700"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

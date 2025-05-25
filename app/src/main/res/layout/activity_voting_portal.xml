@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="312dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/containervotingportal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#161616"
+        android:backgroundTint="#8F9B97"
+        android:visibility="visible"
+        >
+
+        <TextView
+            android:id="@+id/EIDdii"
+            android:layout_width="108dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="384dp"
+            android:fontFamily="@font/alegreya_sans_sc_medium"
+            android:gravity="center"
+            android:text="NAME"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.752"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/USERNAMEVPVP"
+            android:layout_width="108dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="384dp"
+            android:fontFamily="@font/alegreya_sans_sc_medium"
+            android:gravity="center"
+            android:text="USERNAME"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.227"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Vp_tv"
+            android:layout_width="300dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/alata"
+            android:text="VOTING PORTAL"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="33dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/Vp_cid"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/input_bg"
+            android:ems="10"
+            android:hint="CANDIDATE USERNAME"
+            android:textAlignment="center"
+            android:textColorHint="@color/black"
+            android:textFontWeight="600"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Vp_tv" />
+
+        <Button
+            android:id="@+id/Vp_vote"
+            android:layout_width="152dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_button"
+
+            android:text="VOTE"
+
+            android:textColor="@color/white"
+            android:textSize="18dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Vp_cid" />
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
