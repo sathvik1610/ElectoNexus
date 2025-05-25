@@ -1,35 +1,15 @@
-ElectoNexus
-An app designed to make elections easier and accessible for everyone
+# 🗳️ **ElectoNexus**
 
-For more information, please read the ElectoNexus.pdf file in the project
+**ElectoNexus** is a mobile application designed to make elections **simpler**, **secure**, and more **accessible** for everyone.
 
-Contributors :
+Built using **Kotlin**, the app provides a seamless experience for users to participate in the electoral process digitally.
 
-  Jakka Anirudh Reddy
-    Contributions -
-      - Spearheaded Backend development
+---
 
-  K. Sri Saya Sandeep
-    Contributions - 
-      - Connected the app to Firebase Realtime Database
+## 📄 Documentation
 
-  S. Sri Nithish Goud
-    Contributions -
-      - Designed all frontend panels for Login and Sign Up and helped in connecting backend with frontend
+For more detailed information about the project’s features, architecture, and development process, please refer to the full documentation:
 
-  Sathvik Pilyanam
-    Contributions -
-      - Designed all frontend panels for the Admin module and helped in connecting backend with frontend
-     
-  Rohith Venkat Mutyala
-    Contributions -
-      - Designed all frontend panels for the Voter module and helped in connecting backend with frontend
+👉 [**ElectoNexus.pdf**](ElectoNexus.pdf)
 
-  Laxmi Narasimha
-    Contributions - 
-      - Designed the entire app layout on figma and helped in frontend development
-
-  
-  
-    
-  
+---
